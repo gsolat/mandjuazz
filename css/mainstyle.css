@@ -1,0 +1,1271 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #EB4D52;
+}
+
+a {
+    color: #ff6161;
+    -webkit-transition: color 400ms, background-color 400ms;
+    -moz-transition: color 400ms, background-color 400ms;
+    -o-transition:  color 400ms, background-color 400ms;
+    transition:  color 400ms, background-color 400ms;
+}
+    a:hover,
+    a:focus {
+        color: #FC4F45;
+        text-decoration: none;
+    }
+}
+hr {
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #fff;
+}
+.section-header .section-title {
+    font-size: 44px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+.btn {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f27466;
+    border-width: 0;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #f27466;
+    text-transform: uppercase;
+}
+.btn-xs {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 4px 8px;
+    border-width: 0;
+    border-radius: 3px;
+    background-color: #FF6D00;
+}
+.btn-primary {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    border-width: 0;
+    border-radius: 3px;
+    background: #f27466;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    background: #f27466;
+    color: #fff;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #ef5443;
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background: #ef5443;
+    color: #fff;
+}
+
+.container-fluid {
+  /*background-color: #f5f7f6;*/
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: inherit;
+}
+
+/* --- navigator --- */
+
+#extended-nav {
+    background-color: #A7E0D7;
+}
+
+.nav-link {
+    margin: 0 0.6rem;
+}
+
+.navbar-nav {
+    font-weight: 600;
+}
+.navbar-nav-scroll a:hover {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.navbar {
+     background-color: #A7E0D7; 
+}
+
+.navbar-collapse {
+    background-color: #A7E0D7;
+}
+
+@media only screen {
+    .navbar-collapse {
+        margin-left: calc(1120px - 490px);
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:1200px) {
+    .navbar-collapse {
+        margin-left: calc(960px - 150px);
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:1000px) {
+    .navbar-collapse {
+        margin-left: calc(720px - 150px);
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:575px) {
+    .navbar-collapse {
+        margin-left: calc(400px - 200px);
+        padding: 10px 20px;
+    }
+}
+
+/* CONTENT */
+
+@media (min-width: 1200px) {
+
+
+    /* PRESENTACION */
+
+    #home {
+        background-image: url("../img/banner-1.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 100vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+    }
+    #logo-home {
+        max-width: ;
+        margin-top: 38vh;
+        position: absolute;
+        z-index: 10;
+    }
+     #logo-home img {
+        max-width: 50vw;
+    }
+
+    /* DEFINICION */
+
+    #global {
+        background-image: url("../img/background-2.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #F2EE8F;
+        background-repeat: no-repeat;
+        z-index: 10;
+        color: #231f20;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global #text p {
+        font-size: 1.2rem;
+        line-height: 1.3;
+        color: #000;
+    }
+
+    /* VIDEO-HOME */
+
+    #video-home {
+        background-image: url("../img/background-1.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 10;
+        color: #231f20;
+        background-color: #1a1a1a;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #video-home iframe {
+        height: 450px;
+    }
+
+    /*  CONTACTO */
+
+    #contact {
+        z-index: 10;
+        color: #231f20;
+        background-image: url("../img/background-2.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #F2EE8F;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding-bottom: 30px;
+    }
+    #contact #figures img {
+        padding: 10px 40px;
+    }
+    #contact .icon-social img {
+        margin: 0 20px 30px 10px;
+        max-width: 40px;
+        padding: 4px;
+    }
+    #contact #contact-text {
+        text-align: center;
+        line-height: 1.2;
+    }
+    #contact #contact-text h2 {
+        font-size: 1.5em;
+    }
+
+    /* MANDJUANDADE */
+
+    #map {
+        background-image: url("../img/banner-2.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 100vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+    }
+    blockquote {
+        color: #348953;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #musicians {
+        background-image: url("../img/background-3.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 10;
+        color: #231f20;
+        background-color: #EA4D52;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 12vh 0 12vh 0;
+    }
+    #musicians #text {
+        text-align: center;
+        color: #FFF4DD;
+        font-size: 1.2rem;
+        line-height: 1.3;
+    }
+    #musicians #text h1 {
+        color: #FFF4DD;
+        margin-bottom: 4vh;
+    }
+    #musicians #text #vip{
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    /* LO QUE HAY */
+
+    #videos {
+        background-image: url("../img/background-2.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        height: auto;
+        margin-top: 0;
+        padding: 20vh 0;
+        z-index: 10;
+        overflow: hidden;
+    }
+    #videos iframe {
+        height: 450px;
+    }
+    #videos #first-video {
+        margin-bottom: 25px;
+    }
+    #small-video iframe {
+        height: 500px;
+    }
+    #landscape {
+        background-image: url("../img/banner-3.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 60vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+    }
+    #streaming {
+        background-image: url("../img/background-4.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #348953;
+        background-repeat: no-repeat;
+        height: auto;
+        margin-top: 0;
+        padding: 20vh 0;
+        z-index: 10;
+        overflow: hidden;
+    }
+    #press {
+        background-image: url("../img/background-5.jpg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #ea8c5b;
+        background-repeat: no-repeat;
+        height: auto;
+        margin-top: 0;
+        padding: 12vh 0;
+        z-index: 10;
+        overflow: hidden;
+    }
+    #press img {
+        max-height: 40px;
+    }
+    #press #text {
+        color: #FFF4DD;
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    #press #text h1 {
+        text-align: center;
+        color: #FFF4DD;
+        margin-bottom: 4vh;
+    }
+    #press #press-icon {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #press #press-links {
+        margin-bottom: 20px;
+    }
+    #press #press-links a {
+        color: #FFF4DD;
+        text-align: left;
+    }
+
+
+    /* -------------- */
+
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #imagenes .carousel-inner {
+        border-radius: 10px;
+    }
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
+    }
+
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
+    }
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #home {
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 100vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 40vh;
+        position: relative;
+        z-index: 10;
+    }
+    #logo-home img {
+        max-width: 50vw;
+        text-align: center;
+    }
+    #home-page {
+        height: 90vh;
+    }
+ 
+    /* DEFINICION */
+
+    #global {
+        z-index: 10;
+        color: #231f20;
+        background-color: #c29cff;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #ffebe3;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #global #text p {
+        font-size: 1em;
+        color: #000;
+        line-height: 1.3;
+    }
+
+    /* ORIGEN */
+
+    #origen {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #origen h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    #origen #text p {
+        color: #000;
+        font-size: 1em;
+        line-height: 1.3;
+    }
+
+    /* SONIKAS */
+
+    #sonikas {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0 0 12vh 0;
+    }
+    
+    #sonikas #icon img {
+        margin-top: -55px;
+        max-width: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 0px;
+    }
+    #sonikas #icon {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #sonikas .text p {
+        font-size: .8em;
+        line-height: 1.35;
+    }
+    #sonikas .text img {
+        display: none;
+    }
+    .text h1, h3 {
+        font-family: 'Source Sans 3', sans-serif;
+        color: #9a59ff;
+    }
+
+    /* GALERIA */
+
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #imagenes .carousel-inner {
+        border-radius: 10px;
+    }
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
+    }
+    #imagenes #gallery {
+    }
+
+    /*  PODCAST */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 ;
+    }
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #home {
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        color: #000;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Source Sans 3', serif;
+    }
+    #logo-home {
+        margin-top: 36vh;
+        position: relative;
+        z-index: 10;
+    }
+    #logo-home img {
+        max-width: 70vw;
+        margin-left: 15vh;
+        text-align: center;
+    }
+    #home-page {
+        height: 90vh;
+    }
+ 
+    /* DEFINICION */
+
+    #global {
+        z-index: 10;
+        color: #231f20;
+        background-color: #c29cff;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #ffebe3;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #global #text p {
+        font-size: 1em;
+        color: #000;
+        line-height: 1.3;
+    }
+
+    /* ORIGEN */
+
+    #origen {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #origen h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    #origen #text p {
+        color: #000;
+        font-size: 1em;
+        line-height: 1.3;
+    }
+
+    /* SONIKAS */
+
+    #sonikas {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #sonikas .text {
+        padding: 10px;
+    }
+    #sonikas #icon img {
+        margin-top: -55px;
+        max-width: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 0px;
+    }
+    #sonikas #icon {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #sonikas .text p {
+        font-size: .8em;
+        line-height: 1.35;
+    }
+    #sonikas .text img {
+        display: none;
+    }
+    .text h1, h3 {
+        font-family: 'Source Sans 3', sans-serif;
+        color: #9a59ff;
+    }
+
+    /* GALERIA */
+
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0 0 12vh 0;
+    }
+    #imagenes .carousel-inner {
+        border-radius: 10px;
+    }
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
+    }
+    #imagenes #gallery {
+    }
+
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
+    }
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #home {
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 100vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 40vh;
+        position: relative;
+        z-index: 10;
+    }
+    #logo-home img {
+        max-width: 80vw;
+        margin-left:5vw;
+        text-align: center;
+    }
+    #logo-home h1{
+        font-size: 4rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+ 
+    /* DEFINICION */
+
+    #global {
+        z-index: 10;
+        color: #231f20;
+        background-color: #c29cff;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #ffebe3;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #global #text p {
+        font-size: 1em;
+        color: #000;
+        line-height: 1.3;
+    }
+
+    /* ORIGEN */
+
+    #origen {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #origen h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    #origen #text p {
+        color: #000;
+        font-size: 1em;
+        line-height: 1.3;
+    }
+
+    /* SONIKAS */
+
+    #sonikas {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0 0 12vh 0;
+    }
+    #sonikas .text {
+        padding: 10px;
+    }
+    #sonikas #icon img {
+        margin-top: -55px;
+        max-width: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 0px;
+    }
+    #sonikas #icon {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #sonikas .text p {
+        font-size: .8em;
+        line-height: 1.35;
+    }
+    #sonikas .text img {
+        display: none;
+    }
+    .text h1, h3 {
+        font-family: 'Source Sans 3', sans-serif;
+        color: #9a59ff;
+    }
+
+    /* GALERIA */
+
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #imagenes .carousel-inner {
+        border-radius: 10px;
+    }
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
+    }
+    #imagenes #gallery {
+    }
+
+
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
+    }
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+    #home {
+        background-image: url("../img/slider/ondas-bg-3A.svg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 100vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 43vh;
+        position: absolute;
+        z-index: 10;
+        left: 0vh;
+    }
+    #logo-home img {
+        max-width: 90vw;
+        text-align: center;
+    }
+    #logo-home h1{
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+
+    /* DEFINICION */
+
+    #global {
+        z-index: 10;
+        color: #231f20;
+        background-color: #c29cff;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #ffebe3;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #global #text p {
+        font-size: 0.9em;
+        color: #000;
+    }
+
+    /* ORIGEN */
+
+    #origen {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #origen h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #origen #text p {
+        color: #000;
+        font-size: 0.9em;
+    }
+
+    /* SONIKAS */
+
+    #sonikas {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0;
+    }
+    #sonikas .text {
+        padding: 10px;
+    }
+    #sonikas #icon img {
+        margin-top: -55px;
+        max-width: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 0px;
+    }
+    #sonikas #icon {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #sonikas .text p {
+        font-size: .9em;
+        line-height: 1.35;
+    }
+    #sonikas .text img {
+        display: none;
+    }
+    .text h1, h3 {
+        font-family: 'Source Sans 3', sans-serif;
+        color: #9a59ff;
+    }
+
+    /* GALERIA */
+
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #imagenes .carousel-inner {
+        border-radius: 10px;
+    }
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
+    }
+    #imagenes #gallery {
+    }
+
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
+    }
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
+    }
+
+}
+
+@media (max-width: 374px) {
+    #home {
+        background-image: url("../img/slider/ondas-bg-3A.svg"); 
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-color: #ffebe3;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 100vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 43vh;
+        position: absolute;
+        z-index: 10;
+        left: 0vh;
+    }
+    #logo-home img {
+        max-width: 90vw;
+        text-align: center;
+    }
+    #logo-home h1{
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+
+    /* DEFINICION */
+
+    #global {
+        z-index: 10;
+        color: #231f20;
+        background-color: #c29cff;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #ffebe3;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    #global #text p {
+        font-size: 0.8em;
+        color: #000;
+    }
+
+    /* ORIGEN */
+
+    #origen {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #origen #text p {
+        color: #000;
+        font-size: 0.8em;
+    }
+    #origen h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    /* SONIKAS */
+
+    #sonikas {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        margin: 0 0 12 0;
+    }
+    #sonikas .text {
+        padding: 10px 40px;
+    }
+    #sonikas #icon img {
+        margin-top: -55px;
+        max-width: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 0px;
+    }
+    #sonikas #icon {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #sonikas .text p {
+        font-size: .8em;
+        line-height: 1.35;
+    }
+    #sonikas .text img {
+        display: none;
+    }
+    .text h1, h3 {
+        font-family: 'Source Sans 3', sans-serif;
+        color: #9a59ff;
+    }
+
+    /* GALERIA */
+
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        margin: 10vh 0 12vh 0;
+    }
+    #imagenes .carousel-inner {
+        border-radius: 10px;
+    }
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
+    }
+    #imagenes #gallery {
+    }
+
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
+    }
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
+    }
+
+}
