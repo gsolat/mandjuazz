@@ -1368,13 +1368,13 @@ hr {
 @media (max-width: 374px) {
 
     #home {
-        background-image: url("../img/banner-1.jpg"); 
-        background-position:  center;
+        background-image: url("../img/banner-1-small.jpg"); 
+        background-position: top;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: calc(90vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
-        height: 50vh;
+        height: 90vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
@@ -1419,7 +1419,7 @@ hr {
         padding: 10vh 0 12vh 0;
     }
     #video-home iframe {
-        height: 450px;
+        height: 300px;
     }
 
     /*  CONTACTO */
@@ -1463,11 +1463,11 @@ hr {
         background-image: url("../img/banner-2-small.jpg"); 
         background-position:  top;
         background-attachment: fixed;
-        background-size: calc(80vh);
+        background-size: calc(90vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
-        height: 80vh;
+        height: 90vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
