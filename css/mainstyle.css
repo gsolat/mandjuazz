@@ -189,7 +189,14 @@ hr {
 
 @media (max-width:575px) {
     .navbar-collapse {
-        margin-left: calc(400px - 70px);
+        margin-left: 290px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:450px) {
+    .navbar-collapse {
+        margin-left: 180px;
         padding: 10px 20px;
     }
 }
