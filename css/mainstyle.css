@@ -1232,11 +1232,11 @@ hr {
         background-image: url("../img/banner-2-small.jpg"); 
         background-position:  top;
         background-attachment: fixed;
-        background-size: calc(90vh);
+        background-size: calc(60vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
-        height: 90vh;
+        height: 60vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
@@ -1284,7 +1284,7 @@ hr {
         background-size: cover;
         background-color: #F2DEC3;
         background-repeat: no-repeat;
-        height: auto;
+        height: 90vh;
         margin-top: 0;
         padding: 20vh 0;
         z-index: 10;
@@ -1371,10 +1371,10 @@ hr {
         background-image: url("../img/banner-1-small.jpg"); 
         background-position: top;
         background-attachment: fixed;
-        background-size: calc(90vh);
+        background-size: calc(60vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
-        height: 90vh;
+        height: 60vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
@@ -1463,11 +1463,11 @@ hr {
         background-image: url("../img/banner-2-small.jpg"); 
         background-position:  top;
         background-attachment: fixed;
-        background-size: calc(90vh);
+        background-size: calc(60vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
-        height: 90vh;
+        height: 60vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
@@ -1515,7 +1515,7 @@ hr {
         background-size: cover;
         background-color: #F2DEC3;
         background-repeat: no-repeat;
-        height: auto;
+        height: 80vh;
         margin-top: 0;
         padding: 20vh 0;
         z-index: 10;
