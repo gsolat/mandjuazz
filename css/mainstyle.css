@@ -1141,10 +1141,10 @@ hr {
         background-image: url("../img/banner-1-small.jpg"); 
         background-position:  top;
         background-attachment: fixed;
-        background-size: calc(60vh);
+        background-size: calc(90vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
-        height: 60vh;
+        height: 90vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
@@ -1232,11 +1232,11 @@ hr {
         background-image: url("../img/banner-2-small.jpg"); 
         background-position:  top;
         background-attachment: fixed;
-        background-size: calc(60vh);
+        background-size: calc(90vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
-        height: 60vh;
+        height: 90vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
@@ -1257,7 +1257,7 @@ hr {
         color: #FFF4DD;
         background-color: #348953;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 12vh 0 12vh 0;
+        padding: 10vh 0 10vh 0;
     }
     #musicians #text {
         text-align: center;
@@ -1334,7 +1334,7 @@ hr {
         background-repeat: no-repeat;
         height: auto;
         margin-top: 0;
-        padding: 12vh 0;
+        padding: 10vh 0;
         z-index: 10;
         overflow: hidden;
     }
@@ -1371,10 +1371,10 @@ hr {
         background-image: url("../img/banner-1-small.jpg"); 
         background-position: top;
         background-attachment: fixed;
-        background-size: calc(60vh);
+        background-size: calc(90vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
-        height: 60vh;
+        height: 90vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
@@ -1394,7 +1394,7 @@ hr {
         font-family: 'Source Sans 3', sans-serif;
         font-size: 1.5rem;
         text-align: center;
-        padding: 10vh 0 12vh 0;
+        padding: 10vh 0 10vh 0;
     }
     #global p {
         margin-bottom: 10px;
@@ -1463,11 +1463,11 @@ hr {
         background-image: url("../img/banner-2-small.jpg"); 
         background-position:  top;
         background-attachment: fixed;
-        background-size: calc(60vh);
+        background-size: calc(90vh);
         background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
-        height: 60vh;
+        height: 90vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
@@ -1488,7 +1488,7 @@ hr {
         color: #FFF4DD;
         background-color: #348953;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 12vh 0 12vh 0;
+        padding: 10vh 0 10vh 0;
     }
     #musicians #text {
         text-align: center;
